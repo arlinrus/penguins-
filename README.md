@@ -28,17 +28,19 @@ species - вид пингвина (качественная переменная
 
 Проведем работу над датасетоим и полуичм следующие столбцы: **dlina_kluva,  glubina_kluva,  dlina_krila,  body_mass_g,  sex,  year**, где sex заменим на 1 - female и 0 - male. Также уберем пустые значения, чтобы не было лишних выбросов.
 
+Отсортируем данные по определенному региону - **Bescoe** и породе пингвина- **Gentoo**. Таким образом, количество случайных событий получилось 119.
+
 Для того, чтобы проверить данные на наличие выбросов построим **boxplot** для каждого значения столбца с полом пингвина.
 
-![Unknown-3](https://github.com/arlinrus/penguins-/assets/111064731/15018313-a3ed-4df6-b981-199d7c565af9)
+![Unknown](https://github.com/arlinrus/penguins-/assets/111064731/4de9d1a4-ec91-4d55-97ce-04be9c603640)
 
+![Unknown-1](https://github.com/arlinrus/penguins-/assets/111064731/e50c3361-7d82-4a24-878a-3146cef77a9d)
 
-![Unknown](https://github.com/arlinrus/penguins-/assets/111064731/529e3212-84c0-4556-b559-6eb7fe5cea63)
+![Unknown-2](https://github.com/arlinrus/penguins-/assets/111064731/bcd8d9e8-83d5-43a7-a420-5e3b76e0010e)
 
-![Unknown-1](https://github.com/arlinrus/penguins-/assets/111064731/1f5e2e1c-a3ae-4bff-8c24-114301b0177f)
+![Unknown-3](https://github.com/arlinrus/penguins-/assets/111064731/e4cec844-f85e-48f4-b42d-bbe709d6d87b)
 
-
-![Unknown-2](https://github.com/arlinrus/penguins-/assets/111064731/cc539091-eb0c-4bce-ab3a-07509c0140f6)
+Можем заметить выбросы при построении 'boxplot' у длины клюва
 
 
 
